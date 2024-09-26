@@ -33,6 +33,5 @@ function tellTime(){
 }
 
 tellTime();
-//this is a new change
 
 
