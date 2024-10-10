@@ -7,6 +7,7 @@ let randomMovie = [
 
 $(document).ready(function(){
   $("#button").click(function(){
-     $("#image").attr("src", randomMovie[Math.floor(Math.random()*3)]);
+      $("#image").attr("src", randomMovie[Math.floor(Math.random() * randomMovie.length)]);
+     // $("#image").attr("src", movieArray(randomMovie.length));
   });
 });
