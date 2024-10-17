@@ -1,0 +1,27 @@
+[
+  {
+    "path": "img/drums.jpg",
+    "descitption": "drums",
+    "position": "50%",
+  },
+  {
+    "path": "img/piano.jpg",
+    "descitption": "piano",
+    "position": "50%",
+  },
+  {
+    "path": "img/triangle.jpg",
+    "descitption": "triangle",
+    "position": "50%",
+  },
+  {
+    "path": "img/trombone.jpg",
+    "descitption": "trombone",
+    "position": "50%",
+  },
+  {
+    "path": "img/violin.jpg",
+    "descitption": "violin",
+    "position": "50%",
+  },
+]
