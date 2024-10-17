@@ -1,3 +1,18 @@
 *{
-  background-color: black;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(img/violin.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+
+}
+#button{
+  background-color: white;
 }
