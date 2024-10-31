@@ -18,9 +18,11 @@ class Person{
 class TrafficLights{
 
 
-  size(){
+  move(){
 
   }
+
+
 }
 
 $(document).ready(function(){
