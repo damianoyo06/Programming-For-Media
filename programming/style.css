@@ -1,0 +1,451 @@
+/* applying 0pixel margin, black background colour and blue text colour to all pages */
+*{
+  margin: 0px;
+  background-color: #0C121C;
+  color: #80F0FF;
+}
+
+/* paragraphs are white with 24px font */
+p{
+  color: white;
+  font-size: 24px;
+}
+
+/* The heading in navigation is black */
+.navigation h1{
+    color: #0C121C;
+}
+
+/* The heading in .Damian is 78px */
+.Damian h1{
+  font-size: 78px;
+}
+
+/* The heading in .content is 48px and a margin of 20px */
+.content h1{
+  font-size: 48px;
+  margin: 20px;
+}
+
+/* the heading 2 is 48pixels and there is 20px margin */
+h2{
+  font-size: 48px;
+  margin: 20px;
+}
+
+/* The title's text is aligned centrally, the display is felx, the margin at the top is 100px, margin at the bottom is 50px and the font is 42px*/
+#title{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 42px;
+}
+
+/* the .navigation is aligned centrally, it is taking 100% width of the page and the background colour is blue */
+.navigation{
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  background-color: #80F0FF;
+}
+
+/* The headin is displayed in a flex, the content is in the center, the content are displayed on a baseline and the background colour is blue */
+#heading{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #80F0FF;
+}
+
+/* The nav is displayed in a flex, with content aligned in the cetner and blue background */
+nav{
+  display: flex;
+  justify-content: center;
+  background-color: #80F0FF;
+}
+
+/* the link in the nav bar are 100px wide with 10px padding. The background colour is blue. There is a black solid border with 1 pixel. The display is flex, with content aligned in the center, the underline from the link is gone and the colour of the text is black*/
+nav a{
+  width: 100px;
+  padding: 10px;
+  /* background-color: #59A6B3; */
+  background-color: #80F0FF;
+  border: 1px #0C121C solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #0C121C;
+}
+
+/* The .sqaure property has a grid display with 3 columns and rows at 200px. There is a gap of 50px between columns and no gap between rows. The elements are aligned centrally */
+.squares{
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(2, 200px);
+  grid-gap: 50px;
+  grid-row-gap: 0;
+  justify-content: center;
+}
+
+/* The .mePhoto is at 190px width and height */
+.mePhoto{
+  width: 190px;
+  height: 190px;
+}
+
+/* The .box elements have a blue background colour, with a 200px height. The content is displayed in a flexbox and its contents are aligned centrally */
+.box{
+  background-color: #80F0FF;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The .link has a blue background with 40px height and 200px width. The font colour is black. The content is displayed in a flexbox and its contents are aligned centrally */
+.link{
+  background-color: #80F0FF;
+  height: 40px;
+  width: 200px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The video properties are displayed at 50% width and height. There is also a 30px margin at the top */
+video{
+  width: 50%;
+  height: 50%;
+  margin-top: 30px;
+}
+
+/* The .Damian has a flexbox with content aligned centrally. The contents are displayed at 100% width */
+.Damian{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* The DamianPhoto id has a margin of 20px, with a 200px width. The border-radius is at 50%, making the image into a circle. On the outside there is a blue solid border of 5px */
+#DamianPhoto{
+  margin: 20px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid #80F0FF;
+}
+
+/* The .socials have a block display floated to the right with a 20px margin and its content aligned in the center */
+.socials{
+  display: block;
+  float: right;
+  margin: 20px;
+  justify-content: center;
+}
+
+/* The .socialLink have a width of 60px and margin of 10px */
+.socialLink{
+  width: 60px;
+  margin: 10px;
+}
+
+/* The active id has a black background with blue text */
+#active{
+  background-color: #0C121C;
+  color: #80F0FF;
+}
+
+/* The .content elements have a 20px margin with a flexbox display and its content aligned in the center */
+.content{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* The .content link is white */
+.content a{
+  color: white;
+}
+
+/* The following classes have text aligned in the center with 10px margin */
+.oracle, .flappyBird, .theShepard, .text, .unreal, .css, .fiat, .feedback {
+  text-align: center;
+  margin: 10px;
+}
+
+/* The paragraph in the .unreal class has a 20px margin */
+.unreal p{
+  margin: 20px;
+  padding: 10px;
+}
+
+.unreal h1{
+  text-align: center;
+}
+
+/* The .education class has a 20px margin wtih a grid display of 3 columns at 250px and 3 rows at 50px. The text is aligned in the center with 21px font size */
+.education{
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(3, 50px);
+  align-items: center;
+  text-align: center;
+  font-size: 21px;
+}
+
+/* The following classes have a white text colour */
+.masters, .bs, .lc, .softwareDescription, .codingText, .codingRowText, .languageText, .languageRowText, .futureLearning{
+  color: white;
+}
+
+/* The .skills element have a 50px margin with a grid display containing 11 columns at 100px and 4 rows at 60px. The content is aligned in the center */
+.skills{
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(11, 100px);
+  grid-template-rows: repeat(4, 60px);
+  align-items: center;
+  text-align: center;
+}
+
+/* The .skills element have a 50px margin with a grid display containing 2 columns at 100px and 2 rows at 50. The content is aligned in the center */
+.learn{
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(2, 50px);
+  text-align: center;
+  align-items: center;
+}
+
+/* The images in .skills and .learn are 80px wide */
+ .skills img, .learn img{
+  width: 80px;
+}
+
+/* The language is displayed in the first row */
+.language{
+  grid-row: 1;
+}
+
+/* The two classes are displayed in the third row */
+.codingRow, .languageRow, .futureLearning{
+  grid-row: 3;
+}
+
+/* The following classes are displayed in the second row */
+.softwareDescription, .codingText, .languageText{
+  grid-row: 2;
+}
+
+/* .five is displayed in the 5th columns */
+.five{
+  grid-column: 5;
+}
+
+/* .six is displayed in the 6th columns */
+.six{
+  grid-column: 6;
+}
+
+/* .seven is displayed in the 7th columns */
+.seven{
+  grid-column: 7;
+}
+
+/* .nine is displayed in the 9th columns */
+.nine{
+  grid-column: 9;
+}
+
+/* .ten is displayed in the 10th columns */
+.ten{
+  grid-column: 10;
+}
+
+/* .eleven is displayed in the 11th columns */
+.eleven{
+  grid-column: 11;
+}
+
+/* The sheepVideo is displayed at 30% in width */
+#sheepVideo{
+  width: 30%;
+}
+
+/* The .unreal images are displaed at 70px wide*/
+.unreal img{
+   width: 700px;
+  }
+
+.readMore{
+  text-decoration: underline;
+  cursor: pointer;
+}
+  .switch {
+    position: fixed;    /* Fixed relative to the viewport */
+    top: 40px;          /* 20px from the top of the viewport */
+    left: 40px;         /* Adjust as needed */
+    width: 60px;
+    height: 34px;
+  }
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0C121C;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+input:checked + .slider {
+  background-color: #80F0FF;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #80F0FF;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+  border: 1px, solid, #80F0FF;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+footer{
+  display: flex;
+   justify-content: space-between; /* Distribute the space between the items */
+   align-items: center;
+   width: 100%;
+   position: fixed;
+   bottom: 0; /* Stick the footer to the bottom */
+   background-color: #0C121C; /* Optional, for a background color */
+   color: #fff; /* Text color */}
+
+#top, #top a {
+  color: #0C121C;
+   background-color: #80F0FF; /* Optional background for "Back to top" */
+   width: 50%;             /* Make it take up 50% of the width */
+   text-align: center;      /* Align text to the right */
+   padding: 10px;
+   font-size: 16px;
+   box-sizing: border-box;       /* Make sure it's above the time element */
+}
+
+#time{
+  background-color: #80F0FF;
+   color: #0C121C;
+   width: 50%;             /* Make it take up 50% of the width */
+   text-align: center;     /* Center the time text */
+   padding: 10px;
+   font-size: 16px;
+   box-sizing: border-box;
+}
+
+#timeOnly{
+  background-color: #80F0FF;
+   color: #0C121C;
+   width: 100%;             /* Make it take up 50% of the width */
+   text-align: center;     /* Center the time text */
+   padding: 10px;
+   font-size: 16px;
+   box-sizing: border-box;
+}
+
+.carousel {
+  width: 50%;
+  height: 80vh; /* Adjust height as needed */
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(50%);
+}
+
+.carousel ul{
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+
+.slide{
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.slide img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide[data-active]{
+  opacity: 1;
+}
+
+.carouselButton{
+  position: absolute;
+  z-index: 2;
+  background: none;
+  border: none;
+  font-size: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 0 .5rem;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.carouselButton.prev{
+  left: 1rem;
+}
+
+.carouselButton.next{
+  right: 1rem;
+}
